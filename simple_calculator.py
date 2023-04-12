@@ -22,7 +22,7 @@ while True:
         num1, num2, ret = arithmetic_ops(lambda x,y:x%y)
     else:
         printf("Invalid operation")
-        cotinue
+        continue
     print(f"{num1}{op}{num2} = {ret}")
 
 print("Exit program")
